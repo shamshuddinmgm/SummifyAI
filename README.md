@@ -14,7 +14,7 @@
 
 ---
 
-## 🔍 What is SUMMIFY AI?
+## <a id="what-is-summify-ai"></a>🔍 What is SUMMIFY AI?
 
 The application reads large news articles, understands their content using AI models, and automatically performs intelligent tasks:
 
@@ -27,7 +27,7 @@ This project was developed as an academic NLP research and implementation projec
 
 ---
 
-## 💡 Why is This Project Needed?
+## <a id="why-is-this-project-needed"></a>💡 Why is This Project Needed?
 
 Modern news and online content are growing rapidly, leading to major challenges:
 * 🛑 **Information Overload**: Long articles consume valuable time.
@@ -37,7 +37,7 @@ SUMMIFY AI solves this by reducing reading time, automating content organization
 
 ---
 
-## ⚙️ How Does SUMMIFY AI Work?
+## <a id="how-does-summify-ai-work"></a>⚙️ How Does SUMMIFY AI Work?
 
 ### 🔄 System Architecture Flow
 
@@ -86,7 +86,7 @@ The output is instantly displayed via generated summaries, predicted categories,
 
 ---
 
-## 🏗️ Core Architecture Decisions
+## <a id="core-architecture-decisions"></a>🏗️ Core Architecture Decisions
 
 ### 🤖 Why Transformer Models?
 Traditional NLP systems relied heavily on manual rules and static dictionaries. This project uses Transformer-based Hugging Face models because they:
@@ -105,6 +105,6 @@ Streamlit serves as our lightweight web interface dashboard because it allows **
 
 ---
 
-## 🎯 Project Goal
+## <a id="project-goal"></a>🎯 Project Goal
 
 The primary goal of **SUMMIFY AI** is to demonstrate how modern NLP and Transformer-based AI systems can be seamlessly integrated into a fully offline, locally executable application capable of intelligent text understanding and analysis.
