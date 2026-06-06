@@ -6,11 +6,11 @@
 ---
 
 ## 📋 Table of Contents
-- [What is SUMMIFY AI?](#-what-is-summify-ai)
-- [Why is This Project Needed?](#-why-is-this-project-needed)
-- [How Does SUMMIFY AI Work?](#-how-does-summify-ai-work)
-- [Core Architecture Decisions](#-core-architecture-decisions)
-- [Project Goal](#-project-goal)
+- [What is SUMMIFY AI?](#what-is-summify-ai)
+- [Why is This Project Needed?](#why-is-this-project-needed)
+- [How Does SUMMIFY AI Work?](#how-does-summify-ai-work)
+- [Core Architecture Decisions](#core-architecture-decisions)
+- [Project Goal](#project-goal)
 
 ---
 
@@ -49,9 +49,9 @@ graph LR
     D --> E[Streamlit Interface]
     E --> F[User Output]
     
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style C fill:#bbf,stroke:#333,stroke-width:2px
-    style E fill:#bfb,stroke:#333,stroke-width:2px
+    style A fill:#f9f,stroke:#333,stroke-width:2px,color:#000
+    style C fill:#bbf,stroke:#333,stroke-width:2px,color:#000
+    style E fill:#bfb,stroke:#333,stroke-width:2px,color:#000
 ```
 
 ### 🛠️ Step-by-Step Execution
@@ -108,5 +108,3 @@ Streamlit serves as our lightweight web interface dashboard because it allows **
 ## 🎯 Project Goal
 
 The primary goal of **SUMMIFY AI** is to demonstrate how modern NLP and Transformer-based AI systems can be seamlessly integrated into a fully offline, locally executable application capable of intelligent text understanding and analysis.
-
-***
